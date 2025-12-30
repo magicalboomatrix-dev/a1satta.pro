@@ -332,12 +332,12 @@ const UpcomingResults = ({ loadingInitial }) => {
               textAlign: "center",
             }}
           >
-            <h2>
+            {/* <h2>
               जिस व्यक्ति को तेज़ और विश्वसनीय परिणाम चाहिए, वे हमारे{" "}
               <Link to="https://whatsapp.com/channel/0029Vb6z44e17Ems4yyjTj0y">
                 <strong> WhatsApp</strong>
               </Link>{" "} चैनल से जुड़ सकते हैं।
-            </h2>
+            </h2> */}
           </div>
         </div>
       </div>
@@ -648,3 +648,4 @@ const UpcomingResults = ({ loadingInitial }) => {
 };
 
 export default Home;
+
