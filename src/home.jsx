@@ -20,6 +20,8 @@ const Home = () => {
   const [selectedGame, setSelectedGame] = useState("");
   const [selectedYear, setSelectedYear] = useState(new Date().getFullYear());
   const navigate = useNavigate();
+	  const currentYear = new Date().getFullYear();
+  const startYear = 2024;
 
   // Fetch games from backend
   useEffect(() => {
@@ -43,11 +45,15 @@ const Home = () => {
   }, []);
 
   const handleCheck = () => {
-    if (!selectedGame) return;
-    const gameSlug = selectedGame.toLowerCase().replace(/\s+/g, "-");
-    const year = new Date().getFullYear();
-    navigate(`/chart-${year}/${gameSlug}-satta-king-result`);
-  };   
+  if (!selectedGame || !selectedYear) return;
+
+  const gameSlug = selectedGame
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-");
+
+navigate(`/chart-${selectedYear}/${gameSlug}-satta-king-result`);
+};  
 
 const UpcomingResults = ({ loadingInitial }) => {
   const [cards, setCards] = useState(
@@ -372,7 +378,14 @@ const UpcomingResults = ({ loadingInitial }) => {
           value={selectedYear}
           onChange={(e) => setSelectedYear(e.target.value)}
         >
-          <option> {new Date().getFullYear()}</option>;
+          {Array.from(
+            { length: currentYear - startYear + 1 },
+            (_, i) => startYear + i
+          ).map((year) => (
+            <option key={year} value={year}>
+              {year}
+            </option>
+          ))}
         </select>
 
         <button className="header_btn" type="button" onClick={handleCheck}>
@@ -648,4 +661,5 @@ const UpcomingResults = ({ loadingInitial }) => {
 };
 
 export default Home;
+
 
