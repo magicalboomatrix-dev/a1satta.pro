@@ -6,7 +6,7 @@ import Contact from "./pages/contact";
 import Disclaimer from "./pages/disclaimer";
 import Privacypolicy from "./pages/privacy-policy";
 import Termsconditions from "./pages/terms-and-conditions";
-import GamePage from "./pages/GamePage";
+import GamePage from "./pages/GamePage ";
 import Rashifamily from "./pages/01-100-ki-family";
 import Footer from "./assets/components/Footer";
 
