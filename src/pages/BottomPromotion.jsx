@@ -34,7 +34,7 @@ export default function BottomAdsSection() {
   return (
     <section
       className="ads-container"
-      style={{ marginTop: 5, marginBottom: 5 }}
+      style={{ marginTop: 0, marginBottom: 5 }}
     >
       {ads.map((ad) => (
         <div key={ad._id} className="column-ad">
@@ -65,5 +65,6 @@ export default function BottomAdsSection() {
     </section>
   );
 }
+
 
 
