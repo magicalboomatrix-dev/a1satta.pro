@@ -2672,7 +2672,9 @@ div.lucky-number-section .card-body.munda .swiper-wrapper {
 			padding: 0 !important; 
 			margin:0;
 		}
-
+body.bodyClass {
+    overflow: hidden;
+}
 }
 
 
@@ -2686,6 +2688,7 @@ section.octoberresultchart {
 div.Select_selectMainDiv__QD2cf {
 	padding-top: 10px;
 }
+
 
 
 
