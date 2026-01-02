@@ -40,7 +40,7 @@ export default function GroupTable({ groupName }) {
 
   if (loading) {
     return (
-      <section className="tablebox1" style={{ margin: "0px 0px 5px" }}>
+      <section className="tablebox1" style={{ margin: "0px 0px 0px" }}>
         <p style={{ textAlign: "center" }}>Loading...</p>
       </section>
     );
@@ -48,7 +48,7 @@ export default function GroupTable({ groupName }) {
 
   if (error) {
     return (
-      <section className="tablebox1" style={{ margin: "0px 0px 5px" }}>
+      <section className="tablebox1" style={{ margin: "0px 0px 0px" }}>
         <p style={{ textAlign: "center", color: "red" }}>{error}</p>
       </section>
     );
@@ -56,14 +56,14 @@ export default function GroupTable({ groupName }) {
 
   if (!group || !group.games || group.games.length === 0) {
     return (
-      <section className="tablebox1" style={{ margin: "0px 0px 5px" }}>
+      <section className="tablebox1" style={{ margin: "0px 0px 0px" }}>
         <p style={{ textAlign: "center" }}>No games found</p>
       </section>
     );
   }
 
   return (
-    <section className="tablebox1" style={{ margin: "0px 0px 5px" }}>
+    <section className="tablebox1" style={{ margin: "0px 0px 0px" }}>
       <div className="container-fluid">
         <div className="row">
           <article style={{ padding: 0 }}>
@@ -174,4 +174,5 @@ export default function GroupTable({ groupName }) {
       </div>
     </section>
   );
+
 }
