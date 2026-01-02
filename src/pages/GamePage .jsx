@@ -107,7 +107,7 @@ const GamePage = () => {
             <tr
               style={{
                 lineHeight: 1,
-                backgroundColor: "#FFC107",
+                backgroundColor: "#ffd800",
                 color: "#000",
               }}
             >
@@ -150,4 +150,5 @@ const GamePage = () => {
 };
 
 export default GamePage;
+
 
