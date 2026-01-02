@@ -1441,7 +1441,7 @@ a {
 
 .topboxnew {
     background: #000;
-    padding: 30px 0 20px
+    padding: 13px 0 0px
 }
 
 .newnav ul {
@@ -1483,7 +1483,7 @@ a {
 
 .sattalogo {
     background: #ffd800;
-    padding: 24px 0
+    padding: 7px 0
 }
 
 .sattalogo a {
@@ -1508,15 +1508,18 @@ a {
 }
 
 .text_slide {
-    margin-top: 24px;
+    margin-top: 7px;
     overflow: hidden;
     position: relative
+}
+marquee p {
+    margin-bottom: 7px;
 }
 
 .circlebox {
     background: #000;
     border: 1px solid #000;
-    padding: 25px 0
+    padding: 20px 0 15px
 }
 
 .circlebox2 {
@@ -1553,10 +1556,12 @@ a {
     display: block;
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     min-height: 2rem;
     text-align: center
 }
+
+
 
 .hintext {
     font-size: 24px;
@@ -2668,5 +2673,6 @@ div.lucky-number-section .card-body.munda .swiper-wrapper {
 		}
 
 }
+
 
 
