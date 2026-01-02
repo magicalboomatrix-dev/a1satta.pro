@@ -2462,7 +2462,7 @@ section.newtable {
 section.tablebox1 {}
 
 section.tablebox1 article {
-    padding: 0 15px !important;
+    padding: 0 12px !important;
 }
 
 .forChart.termspage {
@@ -2686,6 +2686,7 @@ section.octoberresultchart {
 div.Select_selectMainDiv__QD2cf {
 	padding-top: 10px;
 }
+
 
 
 
