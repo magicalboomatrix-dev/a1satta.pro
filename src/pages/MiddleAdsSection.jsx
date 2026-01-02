@@ -60,7 +60,7 @@ export default function MiddleAdsSection() {
     <section
       className="ads-container"
       style={{
-        marginTop: 5,
+        marginTop: 0,
         marginBottom: 5,
       }}
     >
@@ -89,4 +89,5 @@ export default function MiddleAdsSection() {
     </section>
   );
 }
+
 
