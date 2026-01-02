@@ -73,7 +73,7 @@ export default function TopAdsSection() {
               background: "linear-gradient(#ffd800, #FFFFFF)",
               borderRadius: 20,
               fontWeight: "bold",
-              margin: "5px 0",
+              margin: "8px 0 0",
               textAlign: "center",
             }}
           >
@@ -84,6 +84,7 @@ export default function TopAdsSection() {
     </section>
   );
 }
+
 
 
 
