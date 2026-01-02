@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import FAQ from "./assets/components/faq";
+//import FAQ from "./assets/components/faq";
 import Readmore from "./assets/components/Readmore";
 import Clock from "./pages/clock";
 import api from "./utils/api";
@@ -308,7 +308,7 @@ const UpcomingResults = ({ loadingInitial }) => {
       <MiddleAdsSection/>  
 
       
-      <div
+		{/*<div
         style={{
           boxSizing: "border-box",
           position: "relative",
@@ -338,15 +338,15 @@ const UpcomingResults = ({ loadingInitial }) => {
               textAlign: "center",
             }}
           >
-            {/* <h2>
+             <h2>
               जिस व्यक्ति को तेज़ और विश्वसनीय परिणाम चाहिए, वे हमारे{" "}
               <Link to="https://whatsapp.com/channel/0029Vb6z44e17Ems4yyjTj0y">
                 <strong> WhatsApp</strong>
               </Link>{" "} चैनल से जुड़ सकते हैं।
-            </h2> */}
+            </h2> 
           </div>
         </div>
-      </div>
+      </div>*/}
 
       
       <section className="octoberresultchart">
@@ -655,12 +655,13 @@ const UpcomingResults = ({ loadingInitial }) => {
         </div>
       </section>       */}
 
-      <FAQ />
+		{/*<FAQ />*/}
     </div>
   );
 };
 
 export default Home;
+
 
 
 
