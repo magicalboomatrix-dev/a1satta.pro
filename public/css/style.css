@@ -2447,7 +2447,7 @@ section.faq-section h2 {
 }
 
 section.newtable {
-    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .column-ad {
@@ -2676,3 +2676,9 @@ div.lucky-number-section .card-body.munda .swiper-wrapper {
 
 
 
+
+
+
+section.octoberresultchart {
+    margin-bottom: 16px;
+}
