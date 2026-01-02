@@ -2447,7 +2447,7 @@ section.faq-section h2 {
 }
 
 section.newtable {
-    padding-top: 5px;
+    padding-top: 2px;
 	padding-bottom: 13px;
 }
 
@@ -2683,12 +2683,13 @@ body.bodyClass {
 
 
 section.octoberresultchart {
-    margin-bottom: 8px;
+    margin-bottom: 11px;
 }
 div.Select_selectMainDiv__QD2cf {
 	padding-top: 10px;
 	padding-bottom: 16px;
 }
+
 
 
 
