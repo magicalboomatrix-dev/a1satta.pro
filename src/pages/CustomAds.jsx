@@ -70,7 +70,7 @@ export default function TopAdsSection() {
               flex: "1 1 auto",
               padding: "1rem 0.5rem",
               border: "2px dashed red",
-              background: "linear-gradient(#ffd800, #FFFFFF)",
+              background: "linear-gradient(#FFC107, #FFFFFF)",
               borderRadius: 20,
               fontWeight: "bold",
               margin: "5px 0",
@@ -84,4 +84,5 @@ export default function TopAdsSection() {
     </section>
   );
 }
+
 
