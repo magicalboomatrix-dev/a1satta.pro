@@ -61,7 +61,7 @@ export default function MiddleAdsSection() {
       className="ads-container"
       style={{
         marginTop: 0,
-        marginBottom: 5,
+        marginBottom: 9,
       }}
     >
       {processedAds.map((ad) => (
@@ -89,5 +89,6 @@ export default function MiddleAdsSection() {
     </section>
   );
 }
+
 
 
