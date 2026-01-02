@@ -45,7 +45,7 @@ export default function BottomAdsSection() {
               flex: "1 1 auto",
               padding: "1rem 0.5rem",
               border: "2px dashed red",
-              background: "linear-gradient(#FFC107, #FFFFFF)",
+              background: "linear-gradient(#fff, #FFFFFF)",
               borderRadius: 20,
               fontWeight: "bold",
               margin: "5px 0",
@@ -65,3 +65,4 @@ export default function BottomAdsSection() {
     </section>
   );
 }
+
