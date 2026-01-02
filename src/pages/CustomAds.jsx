@@ -59,7 +59,7 @@ export default function TopAdsSection() {
   return (
     <section
       className="ads-container"
-      style={{ marginTop: 6, marginBottom: 7 }}
+      style={{ marginTop: 8, marginBottom: 9 }}
     >
       {processedAds.map((ad) => (
         <div key={ad._id} className="column-ad">
@@ -73,7 +73,7 @@ export default function TopAdsSection() {
               background: "linear-gradient(#ffd800, #FFFFFF)",
               borderRadius: 20,
               fontWeight: "bold",
-              margin: "5px 0 0",
+              margin: "7px 0 0",
               textAlign: "center",
             }}
           >
@@ -84,6 +84,7 @@ export default function TopAdsSection() {
     </section>
   );
 }
+
 
 
 
