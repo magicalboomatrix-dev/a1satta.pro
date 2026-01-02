@@ -67,7 +67,7 @@ export default function GroupTable({ groupName }) {
       <div className="container-fluid">
         <div className="row">
           <article style={{ padding: 0 }}>
-            <div className="col-md-12 nopadding" style={{ marginBottom: 10 }}>
+            <div className="col-md-12 nopadding" style={{ marginBottom: 12 }}>
               <div className="table-responsive">
                 <table className="table table-bordered">
                   <thead className="forblack">
@@ -176,6 +176,7 @@ export default function GroupTable({ groupName }) {
   );
 
 }
+
 
 
 
