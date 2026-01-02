@@ -74,7 +74,7 @@ export default function MiddleAdsSection() {
               minHeight: 1,
               padding: "1rem 0.5rem",
               border: "dashed red",
-              background: "linear-gradient(#FFC107, #FFFFFF)",
+              background: "linear-gradient(#ffd800, #FFFFFF)",
               borderRadius: 20,
               fontWeight: "bold",
               marginTop: 5,
@@ -89,3 +89,4 @@ export default function MiddleAdsSection() {
     </section>
   );
 }
+
