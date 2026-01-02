@@ -15,7 +15,7 @@ const stickyHeaderStyle = {
   position: "sticky",
   left: 0,
   zIndex: 3,
-  background: "#FFC107",
+  background: "#ffd800",
 };
 
 const stickyBodyStyle = {
@@ -150,5 +150,6 @@ const GamePage = () => {
 };
 
 export default GamePage;
+
 
 
