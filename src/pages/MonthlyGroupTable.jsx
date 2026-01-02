@@ -74,7 +74,7 @@ export default function MonthlyGroupTable({ groupName }) {
           <div className="col-md-12 nopadding">
             <div
               className="table-responsive marginBottom"
-              style={{ overflowX: "auto" }}
+              style={{ overflowX: "auto",margin: '0', }}
             >
               <table className="table table-bordered table-extra">
                 <thead>
@@ -135,3 +135,4 @@ export default function MonthlyGroupTable({ groupName }) {
     </section>
   );
 }
+
