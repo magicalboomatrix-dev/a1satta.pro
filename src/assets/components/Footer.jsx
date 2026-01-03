@@ -47,7 +47,7 @@ const Footer = () => {
     </div>
   </section>
 
-        <div class="support-icon"><a href="/" style={{color:'white', textDecoration:'none'}}><img src="/images/refresh.png" alt="support icon" style={{width:'40px'}} /> Refresh</a></div>
+        <div class="support-icon"><a href="/" style={{color:'white', textDecoration:'none'}}><img src="/images/refresh.png" alt="support icon" style={{width:'40px'}} /></a></div>
 </>
 
     </div>
@@ -55,4 +55,5 @@ const Footer = () => {
 }
 
 export default Footer
+
 
